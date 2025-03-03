@@ -43,6 +43,7 @@ async function getPermit(address: string) {
           permit_name: permitName,
           allowed_tokens: allowedTokens,
           chain_id: chainId,
+          add: address,
           permissions,
         },
         signature: signature,

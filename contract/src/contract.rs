@@ -15,6 +15,7 @@ use crate::msg::{
     MessagesResponse, QueryAnswer, QueryMsg, QueryWithPermit,
 };
 use crate::notify::AcceptedNotificationData;
+use crate::notify::NotificationData;
 use crate::state::{
     config, Activity, ActivityStore, ClientContract, Contract, Message, State,
     ACTIVE_CONTRACTS_KEYMAP, EXPIRED_CONTRACTS_KEYMAP, MESSAGES_APPENDSTORE,

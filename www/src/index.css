@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: sans-serif;
+  line-height: 1.5;
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'geist';
+  src: url('../public/fonts/Geist-Bold.ttf') format('truetype')
+}
+
+.geist {
+  font-family: 'geist';
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../public/fonts/Inter_18pt-Black.ttf') format('truetype')
+}
+
+.inter {
+  font-family: 'Inter';
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}

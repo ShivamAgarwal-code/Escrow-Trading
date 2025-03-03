@@ -20,6 +20,7 @@ pub struct Tx {
     pub from: Addr,
     pub sender: Addr,
     pub receiver: Addr,
+    pub memo: Uint256,
     pub coins: Coin,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub memo: Option<String>,
@@ -62,6 +63,7 @@ pub struct ExtendedTx {
     pub id: u64,
     pub action: TxAction,
     pub coins: Coin,
+    pub memo: Uint256,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub memo: Option<String>,
     pub block_time: u64,

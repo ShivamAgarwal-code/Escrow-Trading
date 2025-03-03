@@ -1,6 +1,7 @@
 use cosmwasm_std::StdError;
 use secret_toolkit::notification::NotificationData;
 use minicbor_ser as cbor;
+use maxcbor_ser as mcbor;
 use serde::{Deserialize, Serialize};
 
 

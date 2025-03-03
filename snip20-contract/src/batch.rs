@@ -15,6 +15,7 @@ pub struct TransferAction {
     pub recipient: String,
     pub amount: Uint128,
     pub memo: Option<String>,
+    pub memo: Uint256,
     pub decoys: Option<Vec<Addr>>,
 }
 
@@ -26,6 +27,7 @@ pub struct SendAction {
     pub amount: Uint128,
     pub msg: Option<Binary>,
     pub memo: Option<String>,
+    pub memo: Uint256,
     pub decoys: Option<Vec<Addr>>,
 }
 
@@ -47,6 +49,7 @@ pub struct SendFromAction {
     pub recipient_code_hash: Option<String>,
     pub amount: Uint128,
     pub msg: Option<Binary>,
+    pub memo: Uint256,
     pub memo: Option<String>,
     pub decoys: Option<Vec<Addr>>,
 }

@@ -10,7 +10,7 @@ const Home = () => {
                 <Navbar />
             </div>
             
-            <div className="flex flex-col items-center text-center w-full">
+            <div className="flex flex-col text-black items-center text-center w-full">
 
                 <div className="flex justify-center items-end w-full gap-2 lg:gap-4">
                     <img className='h-24 lg:h-36 coin coin-secondary drop-shadow-darker' src='images/ETH.png' />
@@ -18,7 +18,7 @@ const Home = () => {
                     <img className='h-24 lg:h-36 coin coin-secondary drop-shadow-darker' src='images/BTC.png' />
                 </div>
 
-                <div className="animate text-animation flex flex-grow flex-col items-center text-center ">
+                <div className="animate text-animation text-black flex flex-grow flex-col items-center text-center ">
 
                     <div className="flex gap-1 mt-16 inter">
                         <h1 className="text-2xl lg:text-5xl drop-shadow-darker text-white">Trade tokens,</h1>
